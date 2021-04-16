@@ -103,3 +103,27 @@ Nav {
     display: none;
   }
 }
+
+.image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-image {
+  width: 18rem;
+  border-radius: 5%;
+  padding: 0.4rem;
+  border: 2px solid var(--primary-green);
+}
+
+.about-me-title {
+  color: var(--primary-blue);
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .about-me-image {
+    width: 10rem;
+  }
+}
