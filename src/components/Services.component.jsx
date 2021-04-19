@@ -10,40 +10,40 @@ const Services = () => {
                 <h1 className="py-5">My services</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 col-md-6">
+                        <div className="col-lg-3 col-md-6 col-md-6">
                             <div className="box">
                                 <div className="circle">
                                     <FontAwesomeIcon className='icon' icon={faDesktop} size='2x' />
                                 </div>
-                                <h3>Web Design</h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, perferendis? Aspernatur cum eaque optio rem eveniet repellendus beatae molestiae quo quisquam quae, molestias provident ratione architecto earum facere sequi placeat.</p>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-md-6">
+                        <div className="col-lg-3 col-md-6 col-md-6">
                             <div className="box">
                                 <div className="circle">
                                     <FontAwesomeIcon className='icon' icon={faFileCode} size='2x' />
                                 </div>
-                                <h3>Web Developement</h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, perferendis? Aspernatur cum eaque optio rem eveniet repellendus beatae molestiae quo quisquam quae, molestias provident ratione architecto earum facere sequi placeat.</p>
+                                <h4>Web Developement</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-md-6">
+                        <div className="col-lg-3 col-md-6 col-md-6">
                             <div className="box">
                                 <div className="circle">
                                     <FontAwesomeIcon className='icon' icon={faFacebookF} size='2x' />
                                 </div>
-                                <h3>Full stack developement</h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, perferendis? Aspernatur cum eaque optio rem eveniet repellendus beatae molestiae quo quisquam quae, molestias provident ratione architecto earum facere sequi placeat.</p>
+                                <h4>Full stack developement</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-md-6">
+                        <div className="col-lg-3 col-md-6 col-md-6">
                             <div className="box">
                                 <div className="circle">
                                     <FontAwesomeIcon className='icon' icon={faGoogle} size='2x' />
                                 </div>
-                                <h3>Front-end Development</h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, perferendis? Aspernatur cum eaque optio rem eveniet repellendus beatae molestiae quo quisquam quae, molestias provident ratione architecto earum facere sequi placeat.</p>
+                                <h4>Front-end Development</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>    

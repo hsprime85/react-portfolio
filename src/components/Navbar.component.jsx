@@ -13,7 +13,7 @@ const NavbarComponent = () => {
                         <Nav.Link className='nav-link mr-5' href="#home">Home</Nav.Link>
                         <Nav.Link className='nav-link mr-5' href="#aboutme">About me</Nav.Link>
                         <Nav.Link className='nav-link mr-5' href="#services">Services</Nav.Link>
-                        <Nav.Link className='nav-link mr-5' href="#howwork">how work</Nav.Link>
+                        <Nav.Link className='nav-link mr-5' href="#howwork">Experience</Nav.Link>
                         <Nav.Link className='nav-link mr-5' href="#portfolios">portfolios</Nav.Link>
                         <Nav.Link className='nav-link mr-5' href="#contact">contact</Nav.Link>
                     </Nav>
