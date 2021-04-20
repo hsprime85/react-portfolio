@@ -1,5 +1,5 @@
 import React from 'react'
-import hanson from '../hanson.jpeg'
+import hanson from '../hyunsoo1.jpeg'
 
 const AboutMe = () => {
     return (

@@ -7,14 +7,16 @@ body {
 :root {
   --primary-white: rgb(255, 255, 255);
   --primary-blue: rgb(72, 51, 145);
-  --primary-green: rgb(123, 255, 0);
-  --primary-yellow: rgb(230, 227, 68);
+  --primary-green: rgb(124, 255, 1);
+  --primary-dark-green: #268500;
+  --primary-yellow: rgb(201, 236, 0);
   --primary-hover-yellow: rgb(116, 114, 7);
-  --primary-light-gray: #b4b4b4;
+  --primary-light-gray: #d1d1d1;
   --primary-gray: rgb(179, 179, 179);
   --primary-dark-gray: rgb(107, 107, 107);
   --primary-dark: #161616;
   --primary-red: #c71111;
+  --primary-black: #000000;
 }
 
 .logo {
@@ -163,11 +165,12 @@ Nav {
 }
 
 .services .box {
-  height: 15rem;
+  height: 15.5rem;
   border-bottom: 4px solid var(--primary-yellow);
   padding: 0.6rem;
   margin-bottom: 1.8rem;
   background-color: var(--primary-white);
+  transition: 0.4s ease-in-out;
 }
 
 .services .box:hover {
@@ -269,5 +272,96 @@ Nav {
     float: none;
     direction: ltr;
     width: 100%;
+  }
+}
+
+.portfolio-wrapper {
+  background: var(--primary-light-gray);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper h1 {
+  color: var(--primary-yellow);
+}
+
+.portfolio-image {
+  width: 15rem;
+  height: 9rem;
+  border: 1px solid var(--primary-yellow);
+  padding: 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 9rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.4s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-yellow);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-dark-green);
+}
+
+.hyper-link:hover {
+  color: var(--primary-red);
+}
+
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .portfolio-image-popupbox {
+    width: 30%;
   }
 }
