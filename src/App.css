@@ -507,6 +507,17 @@ textarea.form-control {
   margin: -0.3rem;
 }
 
+.success-message {
+  color: var(--primary-green);
+  font-weight: 900;
+}
+
+.error-message {
+  color: var(--primary-white);
+  background: var(--primary-red);
+  text-align: left;
+}
+
 @media (max-width: 768px) {
   .contacts {
     overflow-x: hidden;
