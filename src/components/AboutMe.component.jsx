@@ -3,7 +3,7 @@ import hanson from '../hyunsoo1.jpeg'
 
 const AboutMe = () => {
     return (
-        <div className='container py-5'>
+        <div id='about' className='container py-5'>
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div className="image-wrap mb-5">

@@ -26,6 +26,7 @@ body {
 
 Nav {
   font-weight: 700;
+  height: 6rem;
   letter-spacing: 0.05rem;
   z-index: 2;
 }
@@ -34,7 +35,8 @@ Nav {
   text-transform: uppercase;
 }
 
-.nav-link:hover {
+.nav-link.active,
+.nav-link:focus {
   border-top: 0.2rem solid var(--primary-blue);
 }
 @media (max-width: 768px) {
@@ -48,7 +50,7 @@ Nav {
   background: url(headerimage.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -328,6 +330,10 @@ Nav {
   cursor: pointer;
 }
 
+.popupbox-wrapper {
+  margin-top: 5rem;
+}
+
 .portfolio-image-popupbox {
   width: 45rem;
   padding: 0 0.5rem;
@@ -528,4 +534,25 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-gray);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-gray);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-yellow);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
