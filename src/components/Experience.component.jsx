@@ -8,18 +8,17 @@ const Experience = () => {
             </div>
 
             <div className="container experience-wrapper">
-                <div className="timeline-block time-line-block-right">
-                    <div className="marker"></div>
-                    <div className="timeline-content">
-                        <h3>2012-2013</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis neque molestias praesentium eos! Itaque autem saepe, placeat recusandae obcaecati dolores! Quibusdam odit distinctio similique iusto vitae temporibus labore sed, voluptates voluptatibus est a dolorem omnis ea dolores ratione magni aliquid.</p>
-                    </div>
-                </div>
                 <div className="timeline-block time-line-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2013-2014</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis neque molestias praesentium eos! Itaque autem saepe, placeat recusandae obcaecati dolores! Quibusdam odit distinctio similique iusto vitae temporibus labore sed, voluptates voluptatibus est a dolorem omnis ea dolores ratione magni aliquid.</p>
+                        <h3>2017-2020</h3>
+                        <p>3D Access Industries, CNC Engineer. <br/>
+                        Computer-numeric controlled in dimensions, tolerances, angles of workpieces and
+                        machines according to exact specifications and metal properties for classified
+                        projects.<br/>
+                        Ensured 70% efficiency of logistics processing for individual engineers by
+                        reinforcing team’s project understanding, accelerated processes and monitoring deadlines.
+                        </p>
                     </div>
                 </div>
             
@@ -27,17 +26,21 @@ const Experience = () => {
                 <div className="timeline-block time-line-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis neque molestias praesentium eos! Itaque autem saepe, placeat recusandae obcaecati dolores! Quibusdam odit distinctio similique iusto vitae temporibus labore sed, voluptates voluptatibus est a dolorem omnis ea dolores ratione magni aliquid.</p>
+                        <h3>2020</h3>
+                        <p>Coding Dojo Bootcamp: Full-stack software engineering course.<br/>
+                        I am trained with 3 stacks of framework, as Python(Django), Javascript(React), and JAVA(Spring).<br/>
+                        Also, I have MySQL, MongoDB development for backend.
+                        </p>
                     </div>
                 </div>
 
                 <div className="timeline-block time-line-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2015-2016</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis neque molestias praesentium eos! Itaque autem saepe, placeat recusandae obcaecati dolores! Quibusdam odit distinctio similique iusto vitae temporibus labore sed, voluptates voluptatibus est a dolorem omnis ea dolores ratione magni aliquid.</p>
-                    </div>            
+                        <h3>2021</h3>
+                        <p>Freelancer Software Developer.<br/>
+                        </p>
+                    </div>
                 </div>
             </div>                
         </div>

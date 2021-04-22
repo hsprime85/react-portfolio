@@ -12,7 +12,9 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-me-title">About me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nihil sed omnis obcaecati sequi, ut laudantium neque dolorum dignissimos veniam nisi similique quas sint aliquam porro voluptate eum veritatis placeat?
+                    <p>Hello! I am Hyunsoo Jeon a.k.a Hanson - a Software Engineer.<br/>
+                    I am a multi-talented human fueled by high energy levels and deep concentration.<br/>
+
                     </p>
                 </div>
             </div>            
