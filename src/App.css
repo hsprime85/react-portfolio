@@ -41,8 +41,13 @@ Nav {
 
 .nav-link.active,
 .nav-link:focus {
-  border-top: 0.2rem solid var(--primary-red);
+  border-top: 0.2rem solid var(--primary-light-blue);
 }
+
+.nav-link:hover {
+  border-top: 0.2rem solid var(--primary-light-blue);
+}
+
 @media (max-width: 768px) {
   .logo {
     width: 2.5rem;
@@ -562,7 +567,6 @@ textarea.form-control {
 }
 
 .footer a:hover {
-  text-decoration: none;
   color: var(--primary-yellow);
   cursor: pointer;
 }

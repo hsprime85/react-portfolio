@@ -10,7 +10,7 @@ const NavbarComponent = () => {
                 <Navbar.Brand href="#home" to='home'><img className='logo' src={logo} alt='logo'/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
+                    <Nav className="links ml-auto">
                         <Link smooth={true} to='home' className='nav-link mr-3'>Home</Link>
                         <Link smooth={true} to='about' offset={-95} className='nav-link mr-3'>About me</Link>
                         <Link smooth={true} to='skills' offset={-90} className='nav-link mr-3'>Skills</Link>
