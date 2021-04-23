@@ -139,7 +139,7 @@ Nav {
 
 @media (max-width: 468px) {
   .about-me-image {
-    width: 10rem;
+    width: 16rem;
   }
 }
 
@@ -379,9 +379,10 @@ Nav {
   }
 }
 
-.testimonials {
-  background-image: url(hanson.jpeg);
+.comments {
+  background-image: url(everybody.jpg);
   background-size: cover;
+  background-position: center;
   background-color: var(--primary-black);
   text-align: center;
   padding-bottom: 4rem;
@@ -389,13 +390,13 @@ Nav {
   width: 100%;
 }
 
-.testimonials h1 {
-  color: var(--primary-dark-green);
+.comments h1 {
+  color: var(--primary-white);
   padding: 3rem 0;
   text-transform: uppercase;
 }
 
-.testimonial-content {
+.comments-content {
   text-align: center;
   max-width: 53.125rem;
   margin: 0 auto 2rem auto;
@@ -417,7 +418,7 @@ Nav {
 }
 
 .myCrousel h3 {
-  color: var(--primary-yellow);
+  color: var(--primary-red-orange);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -448,13 +449,13 @@ Nav {
 }
 
 .contacts h1 {
-  color: var(--primary-yellow);
+  color: var(--primary-light-green);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
 
 .contacts p {
-  color: var(--primary-light-gray);
+  color: var(--primary-white);
   font-size: 1.2rem;
 }
 
@@ -482,7 +483,7 @@ Nav {
 .contacts input:focus,
 .contacts textarea:focus {
   background: transparent;
-  color: var(--primary-yellow);
+  color: var(--primary-light-gray);
   border-bottom: 0.125rem solid var(--primary-dark-gray);
 }
 
@@ -494,6 +495,12 @@ Nav {
   margin: 1rem 0 0 0;
   width: 100%;
   background: none;
+  border: 2px solid var(--primary-light-green);
+}
+
+.contact-btn:hover {
+  background: var(--primary-light-green);
+  opacity: 0.7;
 }
 
 .line {
@@ -501,7 +508,7 @@ Nav {
   width: 0;
   top: -0.8rem;
   height: 0.125rem;
-  background: var(--primary-yellow);
+  background: var(--primary-light-green);
   display: inline-block;
 }
 
@@ -539,6 +546,7 @@ textarea.form-control {
   }
   .contacts p {
     padding: 0 0.4rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -561,4 +569,8 @@ textarea.form-control {
 
 .footer p {
   margin-bottom: 0;
+}
+
+.footer .footer-icon {
+  width: 3.5rem;
 }

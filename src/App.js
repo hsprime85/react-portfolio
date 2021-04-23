@@ -7,7 +7,7 @@ import AboutMe from './components/AboutMe.component'
 import Skills from './components/Skills.component'
 import Experience from './components/Experience.component'
 import Portfolio from './components/Portfolio.component'
-import Testimomnial from './components/Testimomnial.component'
+import Comments from './components/Comments.component'
 import Contact from './components/Contact.component'
 import Footer from './components/Footer.component'
 
@@ -40,7 +40,7 @@ function App() {
       <Skills/>
       <Experience />
       <Portfolio />
-      <Testimomnial />
+      <Comments />
       <Contact/>
       <Footer />
 

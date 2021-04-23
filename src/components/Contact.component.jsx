@@ -37,7 +37,7 @@ const Contact = () => {
         <div id='contact' className='contacts'>
             <div className="text-center">
                     <h1>Contact me</h1>
-                    <p>Please fill out the form and decribe me </p>
+                    <p>Please fill out the quick form and will be in touch.</p>
                     <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">
@@ -56,7 +56,7 @@ const Contact = () => {
                                     maxLength: {
                                         value: 20,
                                         message:
-                                        "Please enter a name with fewer than 20 characters",
+                                        "Please enter a name with less than 20 characters",
                                         },
                                 })}                
                                 />
@@ -87,7 +87,7 @@ const Contact = () => {
                                 name='email'
                                 aria-invalid={errors.email ? "true" : "false"}
                                 {...register("email", {
-                                    required: "Please enter your email",
+                                    required: "Please enter your valid email address",
                                     pattern: {
                                       value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                                       message: "invalid Email"
